@@ -1,0 +1,21 @@
+{
+  "name": "packmin",
+  "version": "1.0.0",
+  "description": "Minimum sized JavaScript module bundler",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "keywords": [
+    "module bundler",
+    "bundle"
+  ],
+  "author": "Amirhossein Shahbazi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/traverse": "^7.16.5",
+    "acron": "^1.0.5"
+  }
+}
